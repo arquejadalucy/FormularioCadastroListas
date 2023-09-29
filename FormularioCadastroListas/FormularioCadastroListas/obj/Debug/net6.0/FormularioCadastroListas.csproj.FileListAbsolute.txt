@@ -28,3 +28,4 @@
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/obj/Debug/net6.0/FormularioCadastroListas.pdb
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/obj/Debug/net6.0/FormularioCadastroListas.genruntimeconfig.cache
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/obj/Debug/net6.0/ref/FormularioCadastroListas.dll
+/Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/bin/Debug/net6.0/FormularioCadastroListas
