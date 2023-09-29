@@ -1,7 +1,6 @@
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/bin/Debug/net6.0/appsettings.Development.json
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/bin/Debug/net6.0/appsettings.json
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/bin/Debug/net6.0/FormularioCadastroListas.staticwebassets.runtime.json
-/Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/bin/Debug/net6.0/FormularioCadastroListas
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/bin/Debug/net6.0/FormularioCadastroListas.deps.json
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/bin/Debug/net6.0/FormularioCadastroListas.runtimeconfig.json
 /Users/lucyvelasco/FormularioCadastroListas/FormularioCadastroListas/FormularioCadastroListas/bin/Debug/net6.0/FormularioCadastroListas.dll
