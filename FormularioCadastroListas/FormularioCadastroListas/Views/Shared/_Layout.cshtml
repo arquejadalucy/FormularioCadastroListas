@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/Principal.css">
+    <script src="~/js/Menu.js"></script>
+
+</head>
+
+
+<body>
+
+
+    <div class="header">
+        <h1>Hello World</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="child">
+            <div class="topnav" id="myTopnav">
+
+                <a class="active nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Usuario">Cadastrar Usuario</a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="GridUsuarios">Listar Usuários</a>
+
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i> <!-- Barras para a versão móvel-->
+                </a>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+
+    <div class="footer">© Exemplo HTML5 Responsivo</div>
+
+
+</body>
+</html>
+
+
+

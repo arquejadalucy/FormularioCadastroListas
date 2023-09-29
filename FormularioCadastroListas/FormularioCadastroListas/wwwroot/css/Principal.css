@@ -1,0 +1,124 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+    .topnav .icon {
+        display: none;
+    }
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    /*Usado para ocultar os menus qdo deixar no modo celular, exceto o primeiro item*/
+    .topnav a.icon {
+        float: right;
+        display: block; /*Exibe as barras para menu móvel*/
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+        /*Mantém as barras fixas após o clique na versão móvel*/
+        .topnav.responsive .icon { /*Mantém as barras do menu móvel travadas em cima, mantendo o design*/
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+}
+
+
+
+
+
+
+
+
+
+/* Small screens */
+@media (max-width: 768px) {
+    .child {
+        flex: 0 0 100%; /* flex-grow - flex-shrink - flex-basis -> 0 permite liberdade para colocar o tamanho */
+        height: 200px;
+    }
+}
+
+/* Larger screens */
+@media (min-width: 769px) {
+    .child {
+        height: 50px;
+        flex: 0 0 100%; /* flex-grow - flex-shrink - flex-basis */
+    }
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90%;
+    margin-top: 3px;
+}
+
+.child {
+    background-color: rgb(206, 199, 199);
+    border: 1px solid red;
+    /*overflow: auto;*/
+}
+
+
+.header {
+    background-color: #bdb4b4;
+    padding: 15px;
+    text-align: center;
+    /*margin-top: 20px;*/
+}
+
+.footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

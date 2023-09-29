@@ -1,0 +1,99 @@
+﻿@model FormularioCadastroListas.Models.POJO.Usuario
+@{
+    ViewData["Title"] = "CadastroUsuario";
+}
+
+<link rel="stylesheet" href="~/css/Formulario.css" asp-append-version="true" />
+
+
+<div class="containerForm">
+
+    <form action="" method="post" id="form">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">Nome: </label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">E-mail:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="email" name="email" placeholder="Digite seu endereço de e-mail" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Telefone:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Sexo:</label>
+            </div>
+            <div class="col-75">
+                <select id="sexo" name="sexo">
+                    <option value="" selected></option>
+                    <option value="feminino">feminino</option>
+                    <option value="masculino">masculino</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Data de nascimento:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="dataNascimento" name="dataNascimento" placeholder="aaaa-mm-dd" required>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <input type="submit" value="Cadastrar">
+        </div>
+    </form>
+
+    @{
+        if (ViewBag.IsPost != null)
+        {
+            if (ViewBag.IsPost)
+            {
+               
+                <text>
+                <div class="row" id="resultado">
+                    <div class="col-25">
+                        <label for="lname">Usuário cadastrado</label>
+                    </div>
+                    @{
+                        if (ViewBag.resultado != null)
+                        {
+                            <div>
+                                @ViewBag.resultado.id
+                            </div>
+                        }
+                    }
+                </div>
+                </text>
+            }
+
+        }
+    }
+
+    
+
+
+
+
+</div>
+
